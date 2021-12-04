@@ -1,0 +1,125 @@
+.header{
+    background:rgb(255, 0, 0);
+}
+
+
+#nam h1{
+    font-size: 2rem;
+    margin-top: 5px;
+    
+ }  
+#menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+      
+        }
+       #menu li{
+           display:inline-block;
+           padding:15px 10px;
+          
+       }
+       a:hover{
+           text-decoration: none ;
+           background: rgb(136, 34, 34);
+       }
+
+
+       #menu li a{
+           color:aliceblue;
+           padding:15px 4px;
+         
+       }
+       #banner{
+           background: url(mediensturmer-aWf7mjwwJJo-unsplash.jpg) ;
+           background-size: cover;
+       }
+       #banner-title h1{
+           background: #dbd6d6a2;
+           display:inline-block;   
+           padding:10px;
+           margin:0;
+       }
+       #banner-title p{
+color:aliceblue;
+    background:rgba(255, 0, 0, 0.486);
+   padding:10px;
+
+       }
+       #heading h2{
+        text-align: center;
+        padding-top: 10px;
+
+       }
+
+       #heading h2::after{
+        background:rgb(255, 0, 0); 
+        content:"";
+        display:block;
+        
+        width:100px;
+        height:3px;
+        margin:10px auto;
+
+       }
+    
+       .section i{
+           font-size:70px;
+           color:rgb(255, 0, 0);
+           margin-bottom: 15px;
+           
+       }
+       .testimonials{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+background-image: url(sven-Q0ksjWR55Jc-unsplash.jpg);
+
+color:white;
+       }
+       #news img{
+           height:168px;
+           width:280px;
+       }
+#news h3{
+font-size:1.35rem;
+color:rgb(255, 0, 0);
+}
+
+#news a{
+  color:rgb(255, 0, 0);
+    }
+    .post-date i{
+       
+        padding-right: 10px;
+          }
+          .inf h3{
+              border-bottom: 3px solid red;
+              padding-bottom: 3px;
+              display:inline-block;
+              
+                 
+          }
+          .footer{
+              background: gray;
+          }
+        .footer1 {
+           color:white;
+           background:#2c3e50;
+           padding-top:10px
+        }
+        .footer1 li{
+list-style: none;
+font-size: 25px;
+display:inline-block;
+padding-left: 5px;
+  }
+        .footer1 li a{
+            color:white;
+        }
+ .footer1 .row .col{
+    display:flex;
+    
+    justify-content: end;
+   
+ }
